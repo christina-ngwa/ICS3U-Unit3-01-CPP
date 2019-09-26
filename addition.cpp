@@ -11,19 +11,19 @@ int main() {
     // this function calculates sum of two integers
 
     // input
-    int firstnumber;
-    int secondnumber;
+    int firstinteger;
+    int secondinteger;
 
     std::cout << "Enter the first number (integer): ";
-    std::cin >> firstnumber;
+    std::cin >> firstinteger;
     std::cout << "Enter the second number (integer): ";
-    std::cin >> secondnumber;
+    std::cin >> secondinteger;
 
     // process
-    int total = firstnumber + secondnumber;
+    int total = firstinteger + secondinteger;
 
     // output
     std::cout << "" << std::endl;
-    std::cout << firstnumber<< " + " << secondnumber << " = "
+    std::cout << firstinteger<< " + " << secondinteger << " = "
     << total << std::endl;
 }
